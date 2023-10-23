@@ -1,0 +1,54 @@
+
+.card{
+    width: 25rem;
+
+  
+}
+.store-items{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.order-card{
+    width: 10rem;
+
+}
+
+.store-items{
+    background-color: #00000008;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+
+
+@media only screen and (max-width:770px){
+
+
+
+    .store-items{
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        width: 100%;
+    }
+    .card{
+     width: 15rem;
+    }
+     
+}
+
+@media only screen and (max-width:561px){
+
+
+
+    .store-items{
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        width: 100%;
+    }
+    .card{
+     width: 20rem;
+    }
+     
+}

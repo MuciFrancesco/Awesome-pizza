@@ -1,0 +1,82 @@
+.banner{
+    margin-top: 3rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    .banner-img{
+        
+        background: linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.1)100%),url("../imgs/ordina.jpg");
+        background-size:cover;
+        width: 50%;
+        height: 20rem;
+        h4{
+            padding: 1rem;
+            color: white;
+        }
+    }
+    .banner-description{
+        background-color: #00000047;
+        background-image:linear-gradient( rgba(0, 0, 0, 0.2) 100%, rgba(0, 0, 0, 0.2)100%), url("https://i.pinimg.com/736x/dc/dc/62/dcdc62b36075a1f0e68c4f373d2ad4be.jpg");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 50% ;
+        height: 20rem;
+        h2{
+            margin-bottom: 1rem;
+        }
+        button{
+            a{
+                color: white;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width:990px){
+    .banner-description{
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+
+}
+
+
+@media only screen and (max-width:770px){
+    .banner-description{
+        h2{
+            font-size: 1.1rem;
+        }
+    }
+    .container-sm, .container {
+        max-width: 100% !important;
+    }
+
+}
+
+@media only screen and (max-width:550px){
+    .banner{
+        flex-direction: column !important;
+    }
+    .banner .banner-img {
+        width: 100%;
+        height: 15rem;
+    }
+    .banner-description{
+        width: 100% !important;
+        height: 10rem !important;
+        h2{
+            font-size: 1.1rem;
+        }
+    }
+    .container-sm, .container {
+        max-width: 100% !important;
+    }
+
+}

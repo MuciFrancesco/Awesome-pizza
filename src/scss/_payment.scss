@@ -1,0 +1,25 @@
+.payment-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    .payment-div{
+        padding: 30px;
+        border-radius: 2%;
+        border: 1px solid rgba(0, 0, 0, 0.286);
+        margin: 30px;
+    }
+    .payment-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .rccs{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+}

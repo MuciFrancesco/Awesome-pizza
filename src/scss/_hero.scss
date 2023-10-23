@@ -1,0 +1,146 @@
+.hero{
+    width: 100%;
+    height: 40rem;
+}
+.hero-img{
+    position: absolute;
+    width: 100%;
+    height: 40rem;
+    img{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        object-fit:fill;
+    }
+}
+.hero-description{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    .hero-description-text{
+        position: relative;
+        width: 50%;
+        left: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            color: white;
+        }
+        p{
+            color: white;
+            font-size: 1.3rem;
+        }
+        button{
+          a{
+               color: white;
+           }
+        }
+    }
+ 
+}
+
+
+@media only screen and (max-width:1200px){
+    .hero {
+ 
+        height: 30rem;
+    }
+    .hero-img {
+        height: 30rem;
+    }
+    .hero-description .hero-description-text {
+        h1{
+            font-size: 1.7rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+
+    }
+}
+
+@media only screen and (max-width:900px){
+
+    .hero-description .hero-description-text {
+        h1{
+            font-size: 1.7rem;
+            margin-bottom: 0.5rem;
+        }
+        p{
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+    }
+}
+
+
+@media only screen and (max-width:900px){
+    .hero {
+ 
+        height: 30rem;
+    }
+    .hero-img {
+        height: 30rem;
+    }
+    .hero-description .hero-description-text {
+
+        h1{
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        p{
+            font-size: 0.8rem;
+            margin-bottom: 0.6rem;
+        }
+
+    }
+}
+
+@media only screen and (max-width:750px){
+    .hero {
+ 
+        height: 25rem;
+    }
+    .hero-img {
+        height: 25rem;
+    }
+    .hero-description .hero-description-text {
+        width: 50%;
+        left: 50%;
+        h1{
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        p{
+            font-size: 0.8rem;
+            margin-bottom: 0.6rem;
+            text-align: center;
+        }
+
+    }
+}
+
+@media only screen and (max-width:550px){
+    .hero {
+
+    }
+    .hero-img {
+
+    }
+    .hero-description .hero-description-text {
+        width: 100%;
+        left: 0%;
+        h1{
+ 
+        }
+        p{
+ 
+        }
+
+    }
+}

@@ -1,0 +1,23 @@
+.store-header{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+@media only screen and (max-width:530px){
+
+    .store-header{
+        flex-direction: column !important;
+    }
+    .btn-group{
+        flex-wrap: wrap;
+    }
+    
+}
+
